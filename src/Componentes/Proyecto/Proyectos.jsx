@@ -19,7 +19,7 @@ const Proyectos = () => {
                   titulo={proyecto.title}
                   descripcion={proyecto.description}
                   imagen={proyecto.image}
-                  tecnologias={proyecto.tecnologia}
+                  tecnologia={proyecto.tecnologia}
                   url={proyecto.url}
               
               />
