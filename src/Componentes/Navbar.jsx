@@ -6,7 +6,7 @@ const Navbar = () => {
       
          
 <nav className="bg-[#121212] text-[#e0e0e0] p-4 z-50 w-full">
-<ul className="flex flex-col items-center gap-4 bg-[#1f1f1f] p-4 md:flex-row md:justify-around md:gap-0">
+<ul className="flex flex-col items-center gap-4 bg-[#1f1f1f] p-4 sm:flex-row sm:justify-around sm:gap-0">
           <p className='text-center text-gray-600'>Bienvenido a mi portafolio personal</p>
             
       
