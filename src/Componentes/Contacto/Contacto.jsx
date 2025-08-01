@@ -7,9 +7,9 @@ const Contacto = () => {
       <div className="flex flex-col justify-center items-center text-white px-4">
         <motion.form
           
-                  initial={{ opacity: 0, y: 50, x:100 }}
+                  initial={{ opacity: 0, y: 50, x:50 }}
                   whileInView={{ opacity: 1, y: 0, x:0 }}
-                  transition={{ type: 'spring', duration: 2 }}
+                  transition={{ type: 'spring', duration: 3 }}
                   viewport={{ once: true, amount: 0.4 }}
           action="https://formspree.io/f/xjkwddaw"
           method="post"
