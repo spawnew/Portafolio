@@ -5,6 +5,8 @@ import pokemon from './src/assets/pokemon.JPG'
 import rick from './src/assets/rick.JPG'
 import calculadora from './src/assets/calculadora.JPG'
 import supermercado from './src/assets/supermercado.JPG'
+import data from './src/assets/data.JPG'
+import testing from './src/assets/testing.JPG'
 const proyecto = [
     {
         id:1,
@@ -67,6 +69,24 @@ const proyecto = [
       image: supermercado,
       tecnologia: ["html ", " JavaScript ","Css"],
       url:" https://tp-talent-tech.netlify.app/",
+      githubUrl: "#"
+    },
+    {
+        id:8,
+      title: "Análisis de publicidad en Redes",
+      description: "Análisis de publicidad en redes sociales con Power BI y Excel",
+      image: data,
+      tecnologia: ["Power BI ", " Excel "],
+      url:" https://drive.google.com/drive/folders/1TD4FNr33dFZF5FrGZ-YGtpa6a2JtjX_M?usp=drive_link",
+      githubUrl: "#"
+    },
+    {
+        id:8,
+      title: "Testeo QA",
+      description: "Testeo de una pagina web con Lighthouse y Excel reporte de errores y mejoras",
+      image: testing,
+      tecnologia: ["Lighthouse ", " Excel "],
+      url:" https://drive.google.com/drive/folders/1fQrDD69DddZ1fQbrLJBO9lhZZ0hkEydL?usp=drive_link",
       githubUrl: "#"
     },
 ]
