@@ -4,6 +4,7 @@ import buscador from './src/assets/buscador.JPG'
 import pokemon from './src/assets/pokemon.JPG'
 import rick from './src/assets/rick.JPG'
 import calculadora from './src/assets/calculadora.JPG'
+import supermercado from './src/assets/supermercado.JPG'
 const proyecto = [
     {
         id:1,
@@ -57,6 +58,15 @@ const proyecto = [
       image: calculadora,
       tecnologia: ["React ", " JavaScript ","Css"],
       url:" https://calculadora-60d1vhy8k-lucas-projects-5937df71.vercel.app/",
+      githubUrl: "#"
+    },
+    {
+        id:7,
+      title: "Mini Icomerce",
+      description: "Mini Icomerce que permite ver productos y agregar al carrito",
+      image: supermercado,
+      tecnologia: ["html ", " JavaScript ","Css"],
+      url:" https://tp-talent-tech.netlify.app/",
       githubUrl: "#"
     },
 ]

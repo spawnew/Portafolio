@@ -2,6 +2,7 @@ import React from 'react'
 
 const Contacto = () => {
     return (
+        <section id="contacto">
         <div className="flex flex-col justify-center items-center bg-[#1f1f1f]
         text-white p-4"> 
             
@@ -36,6 +37,7 @@ const Contacto = () => {
 
             </form>
             </div>
+            </section>
   )
 }
 
