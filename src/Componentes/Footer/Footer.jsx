@@ -1,8 +1,8 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+
 import Redes from './Redes'
 import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.jpeg'
+import cv from '../../assets/cv.png'
 const Footer = () => {
   return (
     <div className=' flex justify-center items-center bg-[#1f1f1f] text-grey p-1'>
@@ -15,6 +15,11 @@ const Footer = () => {
         nombre="LinkedIn"
         link="https://www.linkedin.com/in/lucas-sorzio-4a1bb1238/"
       imagen={linkedin}
+      />
+         <Redes
+        nombre="CV"
+        link="https://drive.google.com/file/d/19PxlkNAnVDpApiQW7hGxckIgzKJqFqje/view?usp=drive_link"
+      imagen={cv}
       />
     </div>
   )
