@@ -2,7 +2,7 @@
 import Redes from './Redes'
 import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.jpeg'
-import cv from '../../assets/cv.png'
+import cv from '../../assets/cv.jpg'
 const Footer = () => {
   return (
     <div className=' flex justify-center items-center bg-[#1f1f1f] text-grey p-1'>
