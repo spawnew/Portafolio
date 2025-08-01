@@ -13,10 +13,9 @@ const Acerca = () => {
           
               <motion.p initial={{  scale: 0.95 }}
             animate={{ scale: 1 }}
-            transition={{
-                duration: 1.0,
-             
-            }}  className="max-w-xl text-justify  text-gray-400">Hola me llamo Lucas soy estudiante de Análisis de Sistemas en Instituto ORT Argentina,
+                    transition={{ duration: 1.0 }}
+                    whileHover={ { scale: 1.05 }}
+                    className="max-w-xl text-justify  text-gray-400">Hola me llamo Lucas soy estudiante de Análisis de Sistemas en Instituto ORT Argentina,
                   en formación como desarrollador web Full Stack.
 Me especializo en frontend con React y tengo conocimientos en backend con Python/Django, además de testing QA manual, bases de datos y herramientas como Git, VSCode y Power BI.
 Realicé cursos en Coderhouse, Codo a Codo, Talento Tech y Mindhub, y sigo sumando proyectos personales donde aplico lo aprendido.
