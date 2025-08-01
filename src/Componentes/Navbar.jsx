@@ -5,7 +5,7 @@ const Navbar = () => {
      
       
          
-          
+    <nav className=" w-full bg-[#121212] text-[#e0e0e0] p-4 z-50">
       
           <ul className='flex justify-between items-center bg-[#1f1f1f] text-grey p-2 '>
           <p className='text-center text-gray-600'>Bienvenido a mi portafolio personal</p>
@@ -22,7 +22,7 @@ const Navbar = () => {
         <a href="#contacto" className="hover:text-blue-500">Contacto</a></button></li>
     </ul>
       
-      
+      </nav>
       
       
      
