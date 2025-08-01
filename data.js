@@ -70,4 +70,9 @@ const proyecto = [
       githubUrl: "#"
     },
 ]
+
+
+    
+
+
 export default proyecto;

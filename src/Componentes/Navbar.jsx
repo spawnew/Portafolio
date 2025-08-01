@@ -11,12 +11,14 @@ const Navbar = () => {
           <p className='text-center text-gray-600'>Bienvenido a mi portafolio personal</p>
             
       
-      <li><button className="bg-blue-600 hover:bg-blue-700 transition duration-300 text-white py-2 px-4 rounded-md shadow">
+      <li><button className="bg-blue-600 hover:bg-blue-700 transition duration-300 text-gray-500 py-2 px-4 rounded-md shadow">
       <a href="#acerca" className="hover:text-blue-500">Sobre mi</a>
       </button></li>
-      <li><button className="bg-blue-600 hover:bg-blue-700 transition duration-300 text-white py-2 px-4 rounded-md shadow">
-      <a href="#proyectos" className="hover:text-blue-500">Proyectos</a></button></li>
-      <li><button className="bg-blue-600 hover:bg-blue-700 transition duration-300 text-white py-2 px-4 rounded-md shadow">
+      <li><button className="bg-blue-600 hover:bg-blue-700 transition duration-300 text-gray-500 py-2 px-4 rounded-md shadow">
+        <a href="#proyectos" className="hover:text-blue-500">Proyectos</a></button></li>
+        <li><button className="bg-blue-600 hover:bg-blue-700 transition duration-300 text-gray-500 py-2 px-4 rounded-md shadow">
+        <a href="#cursos" className="hover:text-blue-500">Cursos</a></button></li>
+      <li><button className="bg-blue-600 hover:bg-blue-700 transition duration-300 text-gray-500 py-2 px-4 rounded-md shadow">
         <a href="#contacto" className="hover:text-blue-500">Contacto</a></button></li>
     </ul>
       

@@ -3,11 +3,10 @@ import React from 'react'
 const Contacto = () => {
     return (
         <section id="contacto">
-        <div className="flex flex-col justify-center items-center bg-[#1f1f1f]
-        text-white p-4"> 
+        <div className="flex flex-col justify-center items-center  text-white p-4  rounded-lg"> 
             
      
-    <form className='flex flex-col justify-center items-cente bg-radial-[at_25%_25%] from-gray-800 to-gray-700 p-3  border-2  border-blue-800 rounded-2xl' action="https://formspree.io/f/xjkwddaw" method="post" id="form">
+    <form className='flex flex-col justify-center items-cente bg-radial-[at_25%_25%]  from-gray-800 to-gray-700 p-3   border-2  border-blue-800 rounded-2xl' action="https://formspree.io/f/xjkwddaw" method="post" id="form">
                           
                               
     <legend><b>Si desean que desarrollemos juntos</b></legend>
