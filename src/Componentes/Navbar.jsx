@@ -5,9 +5,8 @@ const Navbar = () => {
      
       
          
-    <nav className=" w-full bg-[#121212] text-[#e0e0e0] p-4 z-50">
-      
-      <ul className='flex justify-between items-center bg-[#1f1f1f] text-grey p-2 '>
+<nav className="bg-[#121212] text-[#e0e0e0] p-4 z-50 w-full">
+<ul className="flex flex-col items-center gap-4 bg-[#1f1f1f] p-4 md:flex-row md:justify-around md:gap-0">
           <p className='text-center text-gray-600'>Bienvenido a mi portafolio personal</p>
             
       
