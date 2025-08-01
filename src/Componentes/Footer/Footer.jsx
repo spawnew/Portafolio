@@ -5,7 +5,7 @@ import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.jpeg'
 const Footer = () => {
   return (
-    <div className=' flex justify-center items-center bg-[#1f1f1f] text-grey p-2'>
+    <div className=' flex justify-center items-center bg-[#1f1f1f] text-grey p-1'>
       <Redes
         nombre="Github"
         link="https://github.com/spawnew"
