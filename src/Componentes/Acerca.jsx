@@ -1,5 +1,5 @@
 import React from 'react'
-import foto from '../assets/foto.jpg'
+import fotoPerfil from '../assets/fotoPerfil.jpg'
 import { motion } from 'framer-motion'
 const Acerca = () => {
     return (
@@ -8,7 +8,7 @@ const Acerca = () => {
       
           
         
-              <img className="rounded-md border-2 border-blue-800 w-48 h-65 object-cover"  src={foto} alt="foto-perfil"  />
+              <img className="rounded-md border-2 border-blue-800 w-48 h-65 object-cover"  src={fotoPerfil} alt="foto-perfil"  />
           
           
               <motion.p initial={{  scale: 0.95 }}
