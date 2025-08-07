@@ -6,7 +6,7 @@ const Educacion = () => {
   return (
       <section id="cursos" className="p-6 ">
           <div className='w-full text-center text-2xl font-bold text-white mb-6'>
-        <h2 className='text-5xl text-gray-500'>Educación</h2>
+        <h2 className='text-5xl text-gray-300'>Educación</h2>
         </div>
       <div className=' flex flex-wrap justify-center gap-6 p-6 '>
               

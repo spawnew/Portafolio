@@ -8,10 +8,10 @@ const Edu = ({titulo,institucion,tecnologia="",fecha}) => {
       viewport={{ once: true, amount: 0.4 }}
           
           className='p-2 bg-black border border-blue-800 rounded-lg shadow-md flex flex-col justify-center items-center hover:scale-105 o hover:shadow-lg w-90'>
-          <p className=' text-gray-500'>{ titulo}</p>
-          <p className=' text-gray-600'>{institucion }</p>
-          <p className=' text-gray-700'>{fecha }</p>
-          <p className=' text-gray-500'>{tecnologia }</p>
+          <p className=' text-amber-50'>{ titulo}</p>
+          <p className=' text-amber-50'>{institucion }</p>
+          <p className=' text-amber-50'>{fecha }</p>
+          <p className=' text-amber-50'>{tecnologia }</p>
     </motion.div>
   )
 }

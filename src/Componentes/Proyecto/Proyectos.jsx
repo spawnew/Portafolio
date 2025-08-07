@@ -13,7 +13,7 @@ const Proyectos = () => {
 
 
 <div className='w-full text-center text-2xl font-bold text-gray-500 mb-6'>
-        <h2 className='text-5xl'>Proyectos</h2>
+        <h2 className='text-5xl text-gray-300'>Proyectos</h2>
         </div>
           {proyecto.map((proyecto) => (
      <motion.div 
