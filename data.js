@@ -64,7 +64,7 @@ const proyecto = [
     },
     {
         id:7,
-      title: "Mini Icomerce",
+      title: "Mini E-comerce",
       description: "Mini Icomerce que permite ver productos y agregar al carrito",
       image: supermercado,
       tecnologia: ["html ", " JavaScript ","Css"],
