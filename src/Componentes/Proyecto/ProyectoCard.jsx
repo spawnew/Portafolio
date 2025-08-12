@@ -12,7 +12,7 @@ const ProyectoCard = ({titulo,descripcion,imagen,url,tecnologia}) => {
           <img src={imagen} className='w-80 h-50 p-1 border-1 border-blue-700' alt="foto del proyecto"  />
           <p className='m-3 text-amber-50 '>{descripcion}</p>
           <p className='text-amber-50 '>{tecnologia}</p>
-          <a href={url} className='text-blue-500 hover:underline'>Ver Proyecto</a>
+          <a href={url} className='text-blue-500 hover:underline'><p>Ver proyecto</p></a>
 
                    
 

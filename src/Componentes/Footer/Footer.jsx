@@ -13,7 +13,7 @@ const Footer = () => {
       />
          <Redes
         nombre="LinkedIn"
-        link="https://www.linkedin.com/in/lucas-sorzio-4a1bb1238/"
+        link="https://www.linkedin.com/in/lucas-sorzio"
       imagen={linkedin}
       />
          <Redes
