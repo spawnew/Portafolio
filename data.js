@@ -7,6 +7,7 @@ import calculadora from './src/assets/calculadora.JPG'
 import supermercado from './src/assets/supermercado.JPG'
 import data from './src/assets/data.JPG'
 import testing from './src/assets/testing.JPG'
+import eventos from './src/assets/eventos.JPG'
 const proyecto = [
     {
         id:1,
@@ -87,6 +88,15 @@ const proyecto = [
       image: testing,
       tecnologia: ["Lighthouse ", " Excel "],
       url:" https://drive.google.com/drive/folders/1fQrDD69DddZ1fQbrLJBO9lhZZ0hkEydL?usp=drive_link",
+      githubUrl: "#"
+  },
+     {
+        id:10,
+      title: "Mind hub Tp final",
+      description: "Se trata de un proyecto grupal en el cual se desarrollo una pagina web de una agencia de viajes",
+      image: eventos,
+      tecnologia: ["Javascript ","Html", " CSS "],
+      url:" https://frabjous-beijinho-a09cc1.netlify.app/",
       githubUrl: "#"
     },
 ]
