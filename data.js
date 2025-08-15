@@ -42,7 +42,7 @@ const proyecto = [
       title: "App del clima",
       description: "Busca una ciudad y te dice la temperatura ",
       image: clima,
-      tecnologia: ["React ", " JavaScript ","Css"],
+      tecnologia: ["React ", " JavaScript ","Tailwind"],
       url: "https://app-clima-jade.vercel.app/",
       githubUrl: "#"
     },
