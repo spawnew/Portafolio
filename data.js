@@ -8,6 +8,7 @@ import supermercado from './src/assets/supermercado.JPG'
 import data from './src/assets/data.JPG'
 import testing from './src/assets/testing.JPG'
 import eventos from './src/assets/eventos.JPG'
+import clima from './src/assets/clima.JPG'
 const proyecto = [
     {
         id:1,
@@ -35,9 +36,18 @@ const proyecto = [
       tecnologia: ["React ", " JavaScript ", " Tailwind "],
       url: "https://patitas-t-pitschool-d1ey.vercel.app/",
       githubUrl: "#"
+  },
+      {
+        id:4,
+      title: "App del clima",
+      description: "Busca una ciudad y te dice la temperatura ",
+      image: clima,
+      tecnologia: ["React ", " JavaScript ","Css"],
+      url: "https://app-clima-jade.vercel.app/",
+      githubUrl: "#"
     },
     {
-        id:4,
+        id:5,
       title: "Pokedex",
       description: "Muestra una lista de pokemones su tipo y ataques ",
       image: pokemon,
@@ -46,7 +56,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:5,
+        id:6,
       title: "Rick and Morty",
       description: "Muestra una lista de personajes de la serie Rick and Morty tambien te muestra el estado y el detalle de cada personaje",
       image: rick,
@@ -55,7 +65,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:6,
+        id:7,
       title: "Calculadora",
       description: "Calculadora simple que permite realizar operaciones basicas",
       image: calculadora,
@@ -64,7 +74,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:7,
+        id:8,
       title: "Mini E-comerce",
       description: "Mini e-comerce que permite ver productos y agregar al carrito",
       image: supermercado,
@@ -73,7 +83,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:8,
+        id:9,
       title: "Análisis de publicidad en Redes",
       description: "Análisis de publicidad en redes sociales con Power BI y Excel",
       image: data,
@@ -82,7 +92,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:8,
+        id:10,
       title: "Testeo QA",
       description: "Testeo de una pagina web con Lighthouse y Excel reporte de errores y mejoras",
       image: testing,
@@ -91,9 +101,9 @@ const proyecto = [
       githubUrl: "#"
   },
      {
-        id:10,
+        id:11,
       title: "Mind hub Tp final",
-      description: "Se trata de un proyecto grupal en el cual se desarrollo una pagina web de una agencia de viajes",
+      description: "Se trata de un proyecto final del curso front-end en el cual se desarrollo una pagina web de una que te permite ver eventos y comprar entradas",
       image: eventos,
       tecnologia: ["Javascript ","Html", " CSS "],
       url:" https://frabjous-beijinho-a09cc1.netlify.app/",
