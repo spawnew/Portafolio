@@ -44,7 +44,7 @@ const proyecto = [
       description: "Busca peliculas y series tambien permite ver el detalle de cada una",
       image: luflix,
       tecnologia: ["React ", " JavaScript ", " Tailwind "],
-      url: "https://luflix-pfwrxw3ts-lucas-projects-5937df71.vercel.app/",
+      url: "https://luflix-wine.vercel.app/",
       githubUrl: "#"
   },
       {
