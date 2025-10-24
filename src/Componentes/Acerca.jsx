@@ -4,11 +4,11 @@ import { motion } from 'framer-motion'
 const Acerca = () => {
     return (
         <section id="acerca">
-    <div className="flex flex-col md:flex-row items-center justify-center gap-8 m-3 p-4 bg-[#1f1f1f] text-white rounded-lg shadow-lg">
+    <div className="flex flex-col md:flex-row items-center justify-center gap-8 m-3 p-4  text-white rounded-lg shadow-lg">
       
           
         
-              <img className="rounded-md border-2 border-blue-800 w-48 h-65 object-cover"  src={foto} alt="foto-perfil"  />
+              <img className="rounded-2xl  w-40 h-53 object-cover"  src={foto} alt="foto-perfil"  />
           
           
               <motion.p initial={{  scale: 0.95 }}

@@ -5,7 +5,7 @@ import github from '../../assets/github.jpeg'
 import cv from '../../assets/cv.JPG'
 const Footer = () => {
   return (
-    <div className=' flex justify-center items-center bg-[#1f1f1f] text-grey p-1'>
+    <div className=' flex justify-center items-center  text-grey p-1'>
       <Redes
         nombre="Github"
         link="https://github.com/spawnew"

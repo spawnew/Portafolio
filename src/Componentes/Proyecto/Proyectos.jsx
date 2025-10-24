@@ -18,7 +18,7 @@ const Proyectos = () => {
           {proyecto.map((proyecto) => (
      <motion.div 
     initial={{scale:1}}
-   key={proyecto.id} className='bg-[#1f1f1f]   text-white p-4'>
+   key={proyecto.id} className='  text-white p-4'>
               <ProyectoCard
                   titulo={proyecto.title}
                   descripcion={proyecto.description}

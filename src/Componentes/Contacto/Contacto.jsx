@@ -60,7 +60,7 @@ const Contacto = () => {
 
           <button
             type="submit"
-            className="bg-blue-700 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-semibold transition-all"
+            className="bg-black border-2 border-b-blue-900 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-semibold transition-all"
           >
             Enviar
           </button>

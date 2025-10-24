@@ -7,9 +7,9 @@ const ProyectoCard = ({titulo,descripcion,imagen,url,tecnologia}) => {
             transition={{ type: 'spring', duration: 3 }}
             viewport={{ once: true, amount: 0.4 }}
                 
-     className='p-2 bg-black border border-blue-800 rounded-lg shadow-md flex flex-col justify-center items-center hover:scale-105 o hover:shadow-lg w-90'>
+     className='p-2 bg-black  hover:border-blue-900 hover:border-2  hover:rounded-2xl shadow-md flex flex-col justify-center items-center hover:scale-105 o hover:shadow-lg w-90'>
           <h2 className='text-2xl font-bold p-1 text-gray-300'> {titulo}</h2>
-          <img src={imagen} className='w-80 h-50 p-1 border-1 border-blue-700' alt="foto del proyecto"  />
+          <img src={imagen} className='w-80 h-50 p-1 rounded-2xl' alt="foto del proyecto"  />
           <p className='m-3 text-amber-50 '>{descripcion}</p>
           <p className='text-amber-50 '>{tecnologia}</p>
           <a href={url} className='text-blue-500 hover:underline'><p>Ver proyecto</p></a>

@@ -15,7 +15,7 @@ const Educacion = () => {
                   <motion.div key={edu.id}    initial={{ opacity: 0, y: 100 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ type: 'spring', duration: 2 }}
-                  viewport={{ once: true, amount: 0.4 }} className='bg-[#1f1f1f] text-white p-4 mb-4 rounded-lg shadow-md  '>
+                  viewport={{ once: true, amount: 0.4 }} className=' text-white p-4 mb-4 rounded-lg shadow-md  '>
                       <Edu
                           titulo={edu.titulo}
                           institucion={edu.institucion}
