@@ -14,7 +14,7 @@ const Contacto = () => {
           action="https://formspree.io/f/xjkwddaw"
           method="post"
           id="form"
-          className="w-full max-w-md bg-black text-gray-200 mb-4 shadow-lg flex flex-col space-y-3 p-6 rounded-2xl border border-blue-800"
+          className="w-full max-w-md bg-black text-gray-200 mb-4 shadow-lg flex flex-col space-y-3 p-6 rounded-2xl hover:border hover:border-blue-800"
         >
           <legend className="text-lg font-bold mb-2 text-center">
             Si deseas que desarrollemos juntos
@@ -60,7 +60,7 @@ const Contacto = () => {
 
           <button
             type="submit"
-            className="bg-black border-2 border-b-blue-900 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-semibold transition-all"
+            className="bg-black border-2 border-blue-900 hover:bg-black hover:text-amber-100 text-white px-4 py-2 rounded-md font-semibold transition-all"
           >
             Enviar
           </button>
