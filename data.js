@@ -1,4 +1,4 @@
-import lista from './src/assets/lista.PNG'
+import lista from './src/assets/Captura.JPG'
 import imperio from './src/assets/imperio.JPG'
 import buscador from './src/assets/buscador.JPG'
 import pokemon from './src/assets/pokemon.JPG'
