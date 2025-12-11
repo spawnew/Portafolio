@@ -10,8 +10,21 @@ const ProyectoCard = ({titulo,descripcion,imagen,url,tecnologia}) => {
      className='p-2 bg-black rounded-2xl hover:border-blue-900 hover:border-2  hover:rounded-2xl shadow-md flex flex-col justify-center items-center hover:scale-105 o hover:shadow-lg w-90'>
           <h2 className='text-2xl font-bold p-1 text-gray-300'> {titulo}</h2>
           <img src={imagen} className='w-80 h-50 p-1 rounded-2xl' alt="foto del proyecto"  />
-          <p className='m-3 text-amber-50 '>{descripcion}</p>
-          <p className='text-amber-50 '>{tecnologia}</p>
+      
+      <p className='m-3 text-amber-50 '>{descripcion}</p>
+      <div className='flex flex-row'>
+      
+      {tecnologia.map((tecno) => {
+        return (
+          <img src={tecno} className='w-14 h-13 p-1 rounded-2xl' alt="foto del proyecto" />
+        
+        )
+      })}
+      
+      
+      </div>
+ 
+    
           <a href={url} className='text-blue-500 hover:underline'><p>Ver proyecto</p></a>
 
                    
