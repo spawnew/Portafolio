@@ -31,7 +31,7 @@ body {
   padding: 0;
   min-height: 100vh;
   flex-direction: column;
-  background:linear-gradient(to bottom, #0a0e23, #090d2b);
+  background:#020438;
   color: #e0e0e0;
   font-family: 'Segoe UI', sans-serif;
 }
@@ -50,7 +50,7 @@ button {
   font-weight: 500;
   font-family: inherit;
 
-  color:darkgray;
+
 
   cursor: pointer;
   transition: border-color 0.25s;
@@ -72,9 +72,7 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #f9f9f9;
-  }
+ 
 }
 html {
   scroll-behavior: smooth;

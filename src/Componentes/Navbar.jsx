@@ -5,7 +5,7 @@ const Navbar = () => {
      
       
          
-<nav className=" background-color: #010738; text-[#e0e0e0] p-4 z-50 w-full">
+<nav className="  text-[#e0e0e0] p-4 z-50 w-full">
 <ul className="flex flex-col items-center gap-4  p-4 sm:flex-row sm:justify-around sm:gap-0">
        
             
