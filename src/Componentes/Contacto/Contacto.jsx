@@ -3,70 +3,20 @@ import { motion } from 'framer-motion'
 
 const Contacto = () => {
   return (
-    <section id="contacto" className="py-10 ">
-      <div className="flex flex-col justify-center items-center text-white px-4">
-        <motion.form
-          
-                  initial={{ opacity: 0, y: 50, x:50 }}
-                  whileInView={{ opacity: 1, y: 0, x:0 }}
-                  transition={{ type: 'spring', duration: 3 }}
-                  viewport={{ once: true, amount: 0.4 }}
-          action="https://formspree.io/f/xjkwddaw"
-          method="post"
-          id="form"
-          className="w-full max-w-md bg-black text-gray-200 mb-4 shadow-lg flex flex-col space-y-3 p-6 rounded-2xl hover:border hover:border-blue-800"
-        >
-          <legend className="text-lg font-bold mb-2 text-center">
-            Si deseas que desarrollemos juntos
-          </legend>
+     <section id="contact" className="bg-black py-20 px-6 text-center">
+  <h2 className="text-3xl font-bold text-blue-400 mb-6">Contacto</h2>
 
-          <label htmlFor="nombre">Nombre:</label>
-          <input
-            className="bg-amber-50 text-black rounded-md px-2 py-1 border border-black"
-            type="text"
-            id="nombre"
-            name="nombre"
-            required
-          />
+  <p className="text-gray-300 mb-6">
+    ¿Te gustaría que trabajemos juntos? Estoy disponible para proyectos y oportunidades laborales.
+  </p>
 
-          <label htmlFor="apellido">Apellido:</label>
-          <input
-            className="bg-amber-50 text-black rounded-md px-2 py-1 border border-black"
-            type="text"
-            id="apellido"
-            name="apellido"
-            required
-          />
-
-          <label htmlFor="email">e-Mail:</label>
-          <input
-            className="bg-amber-50 text-black rounded-md px-2 py-1 border border-black"
-            type="email"
-            id="email"
-            name="email"
-            required
-          />
-
-          <label htmlFor="mensaje">Mensaje:</label>
-          <textarea
-            className="bg-amber-50 text-black rounded-md px-2 py-2 border border-black"
-            name="comentario"
-            id="mensaje"
-            placeholder="Escribí tu mensaje..."
-            cols="30"
-            rows="6"
-            required
-          ></textarea>
-
-          <button
-            type="submit"
-            className="bg-black border-2 border-blue-900 hover:bg-black hover:text-amber-100 text-white px-4 py-2 rounded-md font-semibold transition-all"
-          >
-            Enviar
-          </button>
-        </motion.form>
-      </div>
-    </section>
+  <div className="space-y-2 text-gray-300">
+    <p>Email: <span className="text-blue-400">sorziolucas4@gmail.com</span></p>
+    <p>GitHub: <a className="text-blue-400 underline" href="https://github.com/spawnew">Link</a></p>
+        <p>LinkedIn: <a className="text-blue-400 underline" href="https://www.linkedin.com/in/lucas-sorzio">Link</a></p>
+        <p>Cv: <a className="text-blue-400 underline" href="https://drive.google.com/file/d/19PxlkNAnVDpApiQW7hGxckIgzKJqFqje/view?usp=drive_link">Link</a></p>
+  </div>
+</section>
   )
 }
 

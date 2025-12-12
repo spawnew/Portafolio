@@ -1,47 +1,24 @@
-import React from 'react'
-import foto from '../assets/foto.jpg'
-import { motion } from 'framer-motion'
+
 const Acerca = () => {
     return (
-        <section id="acerca">
-    <div className="flex flex-col md:flex-row items-center justify-center gap-8 m-3 p-4  text-white rounded-lg shadow-lg">
-      
-          
-        
-              <img className="rounded-2xl  w-40 h-53 object-cover"  src={foto} alt="foto-perfil"  />
-          
-          
-              <motion.p initial={{  scale: 0.95 }}
-            animate={{ scale: 1 }}
-                    transition={{ duration: 1.0 }}
-                    whileHover={ { scale: 1.05 }}
-                    className="max-w-xl text-justify  text-amber-50">Hola me llamo Lucas soy estudiante de Análisis de Sistemas en Instituto ORT Argentina,
-                  en formación como desarrollador web Full Stack.
-Me especializo en frontend con React y tengo conocimientos en backend con Python/Django, además de testing QA manual, bases de datos y herramientas como Git, VSCode y Power BI.
-Realicé cursos en Coderhouse, Codo a Codo, Talento Tech y Mindhub, y sigo sumando proyectos personales donde aplico lo aprendido.
-Estoy buscando mi primera experiencia IT para seguir creciendo profesionalmente y aportar valor en un equipo de desarrollo.</motion.p>
-          </div>
-      
-          </section>
+        <section className="h-screen flex flex-col justify-center items-center text-center bg-black pt-20">
+  <h1 className="text-4xl md:text-6xl font-bold text-blue-400">
+    Hola, soy Lucas 👋
+  </h1>
+  <p className="mt-4 text-gray-300 text-lg max-w-xl">
+    Desarrollador Frontend en formación. Me enfoco en React, Tailwind,
+    consumo de APIs y creación de interfaces claras y funcionales.
+  </p>
+
+  <a href="#projects">
+    <button className="mt-6 px-6 py-3 bg-blue-500 text-black font-bold rounded-xl hover:bg-blue-400">
+      Ver mis proyectos
+    </button>
+  </a>
+      </section>
       
       
-      
-      
-      
-      
-      
-      
-      
-      
- 
- 
-  
-  
-  
-  
-  
-  
-  
+
   
   )
 }

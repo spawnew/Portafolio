@@ -1,5 +1,5 @@
-import lista from './src/assets/Captura.JPG'
-import imperio from './src/assets/imperio.JPG'
+import lista from './src/assets/lista.jpg'
+import imperio from './src/assets/buscador de imperio.JPG'
 import buscador from './src/assets/buscador.JPG'
 import pokemon from './src/assets/pokemon.JPG'
 import rick from './src/assets/rick.JPG'
@@ -9,7 +9,7 @@ import data from './src/assets/data.JPG'
 import testing from './src/assets/testing.JPG'
 import eventos from './src/assets/eventos.JPG'
 import clima from './src/assets/clima.JPG'
-import luflix from './src/assets/luflix.JPG'
+import luflix2 from './src/assets/luflix2.JPG'
 import React from './src/assets/React.png'
 import Html from './src/assets/html.png'
 import Css from './src/assets/css.png'
@@ -51,7 +51,7 @@ const proyecto = [
         id:4,
       title: "Luflix",
       description: "Busca peliculas y series tambien permite ver el detalle de cada una",
-      image: luflix,
+      image: luflix2,
       tecnologia: [React ,  JavaScript ,  Tailwind ],
       url: "https://luflix-wine.vercel.app/",
       githubUrl: "#"
