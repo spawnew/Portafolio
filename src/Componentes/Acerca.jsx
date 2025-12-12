@@ -10,7 +10,7 @@ const Acerca = () => {
     consumo de APIs y creación de interfaces claras y funcionales.
   </p>
 
-  <a href="#projects">
+  <a href="#proyectos">
     <button className="mt-6 px-6 py-3 bg-blue-500 text-black font-bold rounded-xl hover:bg-blue-400">
       Ver mis proyectos
     </button>

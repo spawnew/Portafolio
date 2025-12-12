@@ -8,7 +8,7 @@ const ProyectoCard = ({ titulo, descripcion, imagen, url, tecnologia }) => {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ type: 'spring', duration: 1.5 }}
       viewport={{ once: true, amount: 0.3 }}
-      className="p-4 bg-gray-900 rounded-2xl shadow-md flex flex-col 
+      className="p-4 bg-gray-900 rounded-2xl h-100 shadow-md flex flex-col 
                  items-center hover:border-blue-900 hover:border-2 
                  hover:shadow-lg hover:scale-105 transition w-90"
     >
@@ -28,12 +28,12 @@ const ProyectoCard = ({ titulo, descripcion, imagen, url, tecnologia }) => {
         />
       </div>
 
-      <p className="text-amber-50 text-center px-2 mb-3">
+      <p className="text-gray-200 text-center px-2 mb-3">
         {descripcion}
       </p>
 
       
-      <div className="flex flex-row gap-2 mb-4">
+      <div className="flex flex-row gap-2 pr-2 mb-4">
         {tecnologia.map((tecno, index) => (
           <img
             key={index}
