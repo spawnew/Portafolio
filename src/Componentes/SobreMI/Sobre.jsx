@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Aos from 'aos'
 const Sobre = () => {
   return (
    
-      <section id="about" className="bg-black py-20 px-6 text-center">
-  <h2 className="text-3xl font-bold text-blue-400 mb-6">
+      <section  data-aos="fade-down" id="about" className="bg-black py-20 px-6 text-center">
+  <h2  className="text-3xl font-bold text-blue-400 mb-6">
     Sobre mí
   </h2>
 

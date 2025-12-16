@@ -2,7 +2,7 @@
 const Acerca = () => {
     return (
         <section className="h-screen flex flex-col justify-center items-center text-center bg-black pt-20">
-  <h1 className="text-4xl md:text-6xl font-bold text-blue-400">
+  <h1  data-aos="fade-left" className="text-4xl md:text-6xl font-bold text-blue-400">
     Hola, soy Lucas 👋
   </h1>
   <p className="mt-4 text-gray-300 text-lg max-w-xl">
