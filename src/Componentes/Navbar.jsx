@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
      
       
-       <nav className="fixed top-0 left-0 w-full bg-black/90 backdrop-blur-md z-50">
+       <nav data-aos="fade-up" className="fixed top-0 left-0 w-full bg-black/90 backdrop-blur-md z-50">
   <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
     <h1 className="text-xl font-bold text-blue-400">Lucas Dev</h1>
 
