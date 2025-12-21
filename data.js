@@ -28,7 +28,7 @@ const proyecto = [
       image: lista,
       tecnologia: [React ,  JavaScript ,  Tailwind ],
       url: "https://lista-tarea-reducer-xiw5.vercel.app/",
-      githubUrl: "#"
+      githubUrl: ""
      },
      {
         id:2,
