@@ -19,7 +19,7 @@ import powerBi from '/src/assets/powerBi.jpeg'
 import Excel from '/src/assets/excel.png'
 import sql from '/src/assets/sql.png'
 import lighthouse from '/src/assets/lighthouse.jpg'
-import  Captura1 from './src/assets/Captura1.JPG'
+import  captura1 from './src/assets/captura1.JPG'
 const proyecto = [
      {
         id:1,
@@ -43,7 +43,7 @@ const proyecto = [
         id:3,
       title: "Tienda de cartas",
       description: "Mini icomerce de cartas de yugioh permite buscar cartas y agregarlas al carrito",
-      image: Captura1,
+      image: captura1,
       tecnologia: [React ,  JavaScript ,  Tailwind ],
       url: "https://tienda-one-zeta.vercel.app/",
       githubUrl: "#"
