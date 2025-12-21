@@ -21,15 +21,15 @@ import sql from '/src/assets/sql.png'
 import lighthouse from '/src/assets/lighthouse.jpg'
 import  Captura1 from './src/assets/Captura1.JPG'
 const proyecto = [
-    {
+     {
         id:1,
-      title: "Lista de Tareas",
-      description: "Genera una lista la cual puede agregar tareas marcar como finalizadas y eliminar tareas.",
-      image: lista,
+      title: "Luflix",
+      description: "Busca peliculas y series tambien permite ver el detalle de cada una",
+      image: luflix2,
       tecnologia: [React ,  JavaScript ,  Tailwind ],
-      url: "https://lista-tarea-reducer-xiw5.vercel.app/",
-      githubUrl: ""
-     },
+      url: "https://luflix-wine.vercel.app/",
+      githubUrl: "#"
+  },
      {
         id:2,
       title: "Buscador Imperio Yugioh",
@@ -50,13 +50,14 @@ const proyecto = [
   },
     {
         id:4,
-      title: "Luflix",
-      description: "Busca peliculas y series tambien permite ver el detalle de cada una",
-      image: luflix2,
+      title: "Lista de Tareas",
+      description: "Genera una lista la cual puede agregar tareas marcar como finalizadas y eliminar tareas.",
+      image: lista,
       tecnologia: [React ,  JavaScript ,  Tailwind ],
-      url: "https://luflix-wine.vercel.app/",
+      url: "https://lista-tarea-reducer-xiw5.vercel.app/",
       githubUrl: "#"
-  },
+     },
+ 
       {
         id:5,
       title: "App del clima",
