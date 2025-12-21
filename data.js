@@ -18,7 +18,8 @@ import Tailwind from './src/assets/tailwind.jpeg'
 import powerBi from '/src/assets/powerBi.jpeg'
 import Excel from '/src/assets/excel.png'
 import sql from '/src/assets/sql.png'
-import lighthouse from'/src/assets/lighthouse.jpg'
+import lighthouse from '/src/assets/lighthouse.jpg'
+import  Captura1 from './src/assets/captura1.JPG'
 const proyecto = [
     {
         id:1,
@@ -40,11 +41,11 @@ const proyecto = [
      },
      {
         id:3,
-      title: "Buscador Gift",
-      description: "Busca imagenes que coincidan con lo ingresado ",
+      title: "Tienda de cartas",
+      description: "Mini icomerce de cartas de yugioh permite buscar cartas y agregarlas al carrito",
       image: buscador,
       tecnologia: [React ,  JavaScript ,  Tailwind ],
-      url: "https://patitas-t-pitschool-d1ey.vercel.app/",
+      url: "https://tienda-one-zeta.vercel.app/",
       githubUrl: "#"
   },
     {
@@ -64,9 +65,18 @@ const proyecto = [
       tecnologia: [React ,  JavaScript ,Tailwind],
       url: "https://app-clima-jade.vercel.app/",
       githubUrl: "#"
-    },
-    {
+  },
+       {
         id:6,
+      title: "Buscador Gift",
+      description: "Busca imagenes que coincidan con lo ingresado ",
+      image: buscador,
+      tecnologia: [React ,  JavaScript ,  Tailwind ],
+      url: "https://patitas-t-pitschool-d1ey.vercel.app/",
+      githubUrl: "#"
+  },
+    {
+        id:7,
       title: "Pokedex",
       description: "Muestra una lista de pokemones su tipo y ataques ",
       image: pokemon,
@@ -75,7 +85,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:7,
+        id:8,
       title: "Rick and Morty",
       description: "Muestra una lista de personajes de la serie Rick and Morty tambien te muestra el estado y el detalle de cada personaje",
       image: rick,
@@ -84,7 +94,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:8,
+        id:9,
       title: "Calculadora",
       description: "Calculadora simple que permite realizar operaciones basicas",
       image: calculadora,
@@ -93,7 +103,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:9,
+        id:10,
       title: "Mini E-comerce",
       description: "Mini e-comerce que permite ver productos y agregar al carrito",
       image: supermercado,
@@ -102,7 +112,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:10,
+        id:11,
       title: "Análisis de publicidad en Redes",
       description: "Análisis de publicidad en redes sociales con Power BI y Excel",
       image: data,
@@ -111,7 +121,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:11,
+        id:12,
       title: "Testeo QA",
       description: "Testeo de una pagina web con Lighthouse y Excel reporte de errores y mejoras",
       image: testing,
@@ -120,7 +130,7 @@ const proyecto = [
       githubUrl: "#"
   },
      {
-        id:12,
+        id:13,
       title: "Mind hub Tp final",
       description: "Se trata de un proyecto final del curso front-end en el cual se desarrollo una pagina web de una que te permite ver eventos y comprar entradas",
       image: eventos,
