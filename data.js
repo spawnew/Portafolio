@@ -19,7 +19,7 @@ import powerBi from '/src/assets/powerBi.jpeg'
 import Excel from '/src/assets/excel.png'
 import sql from '/src/assets/sql.png'
 import lighthouse from '/src/assets/lighthouse.jpg'
-import  captura1 from './src/assets/captura1.JPG'
+import  captura1 from './src/assets/captura1.jpg'
 const proyecto = [
      {
         id:1,
