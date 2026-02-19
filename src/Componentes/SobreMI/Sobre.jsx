@@ -9,10 +9,9 @@ const Sobre = () => {
   </h2>
 
   <p className="text-gray-300 max-w-3xl mx-auto text-lg leading-relaxed">
-    Soy un desarrollador frontend que está construyendo proyectos reales
-    mientras sigo perfeccionando React. Me gusta crear interfaces limpias,
-    trabajar con APIs y aprender nuevas tecnologías cada semana.
-    Busco oportunidades para crecer en un equipo y aportar valor desde el primer día.
+   "Soy desarrollador Frontend y estudiante de Analista de Sistemas en ORT, apasionado por transformar ideas complejas en interfaces limpias y eficientes. Actualmente, me dedico a construir proyectos reales con React, integrando APIs y optimizando la experiencia de usuario.
+
+Mi enfoque combina la rigurosidad académica con un aprendizaje autodidacta constante, lo que me permite adoptar nuevas tecnologías con rapidez. Busco integrarme en un equipo dinámico donde pueda aportar soluciones técnicas desde el primer día y seguir evolucionando profesionalmente.".
   </p>
 </section>
   )
