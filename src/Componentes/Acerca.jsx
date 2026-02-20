@@ -6,7 +6,7 @@ const Acerca = () => {
     Hola, soy Lucas 👋
   </h1>
   <p className="mt-4 text-gray-300 text-lg max-w-xl">
-    Desarrollador Frontend en formación. Me enfoco en React, Tailwind,
+    Desarrollador Frontend . Me enfoco en React, Tailwind,
     consumo de APIs y creación de interfaces claras y funcionales.
   </p>
 
