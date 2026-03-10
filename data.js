@@ -80,7 +80,7 @@ const proyecto = [
   },
   {
         id:7,
-      title: "buscador dbz",
+      title: "Buscador Dbz",
       description: "Muestra una lista de peleadores su nivel y sus transformaciones su planeta ",
       image: dbz,
       tecnologia: [React ,Next ,  JavaScript ,Css],
