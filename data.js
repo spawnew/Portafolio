@@ -20,6 +20,8 @@ import Excel from '/src/assets/excel.png'
 import sql from '/src/assets/sql.png'
 import lighthouse from '/src/assets/lighthouse.jpg'
 import tienda from './src/assets/tienda.JPG'
+import Next from './src/assets/next.png'
+import dbz from './src/assets/dbz.JPG'
 const proyecto = [
      {
         id:1,
@@ -76,8 +78,17 @@ const proyecto = [
       url: "https://patitas-t-pitschool-d1ey.vercel.app/",
       githubUrl: "#"
   },
-    {
+  {
         id:7,
+      title: "buscador dbz",
+      description: "Muestra una lista de peleadores su nivel y sus transformaciones su planeta ",
+      image: dbz,
+      tecnologia: [React ,Next ,  JavaScript ,Css],
+      url: "https://my-app-cj8h.vercel.app/",
+      githubUrl: "#"
+    },
+    {
+        id:8,
       title: "Pokedex",
       description: "Muestra una lista de pokemones su tipo y ataques ",
       image: pokemon,
@@ -86,7 +97,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:8,
+        id:9,
       title: "Rick and Morty",
       description: "Muestra una lista de personajes de la serie Rick and Morty tambien te muestra el estado y el detalle de cada personaje",
       image: rick,
@@ -95,7 +106,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:9,
+        id:10,
       title: "Calculadora",
       description: "Calculadora simple que permite realizar operaciones basicas",
       image: calculadora,
@@ -104,7 +115,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:10,
+        id:11,
       title: "Mini E-comerce",
       description: "Mini e-comerce que permite ver productos y agregar al carrito",
       image: supermercado,
@@ -113,7 +124,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:11,
+        id:12,
       title: "Análisis de publicidad en Redes",
       description: "Análisis de publicidad en redes sociales con Power BI y Excel",
       image: data,
@@ -122,7 +133,7 @@ const proyecto = [
       githubUrl: "#"
     },
     {
-        id:12,
+        id:13,
       title: "Testeo QA",
       description: "Testeo de una pagina web con Lighthouse y Excel reporte de errores y mejoras",
       image: testing,
@@ -131,7 +142,7 @@ const proyecto = [
       githubUrl: "#"
   },
      {
-        id:13,
+        id:14,
       title: "Mind hub Tp final",
       description: "Se trata de un proyecto final del curso front-end en el cual se desarrollo una pagina web de una que te permite ver eventos y comprar entradas",
       image: eventos,
