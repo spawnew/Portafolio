@@ -87,15 +87,15 @@ const proyecto = [
       url: "https://my-app-cj8h.vercel.app/",
       githubUrl: "#"
     },
-    {
-        id:8,
-      title: "Pokedex",
-      description: "Muestra una lista de pokemones su tipo y ataques ",
-      image: pokemon,
-      tecnologia: [React ,  JavaScript ,Css],
-      url: "https://pokeapi-ac77a27vw-lucas-projects-5937df71.vercel.app/",
-      githubUrl: "#"
-    },
+   // {
+     //   id:8,
+     // title: "Pokedex",
+     // description: "Muestra una lista de pokemones su tipo y ataques ",
+     // image: pokemon,
+     // tecnologia: [React ,  JavaScript ,Css],
+     // url: "https://pokeapi-ac77a27vw-lucas-projects-5937df71.vercel.app/",
+     // githubUrl: "#"
+    //},
     {
         id:9,
       title: "Rick and Morty",
